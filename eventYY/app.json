@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "eventYY",
+    "slug": "eventyy",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "permission": [
+      "LOCATION"
+    ],
+    "plugins": [
+    [
+      "expo-location",
+      {
+        "locationAlwaysAndWhenInUsePermission": {
+          "ios": "Aplikacja wymaga dostępu do lokalizacji, aby poprawnie wyświetlać mapę.",
+          "android": "Aplikacja wymaga dostępu do lokalizacji, aby poprawnie wyświetlać mapę."
+        }
+      }
+    ]
+  ],
+    "updates": {
+      "url": "https://u.expo.dev/8847791a-2701-42c5-850a-54a3c51a52e0"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "runtimeVersion": "1.0.1",
+    "jsEngine": "hermes",
+    "ios": {
+      "bundleIdentifier": "com.anonymous.eventyy",
+      "buildNumber": "1.0.1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to show nearby attractions."
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyCKPxwk5mgGovdLIFk5ybNug8DeEFI-lM4"
+      }
+    },
+    "android": {
+      "package": "com.anonymous.eventyy",
+      "versionCode": 2,
+      "permissions": [
+        "ACCESS_NETWORK_STATE",
+        "INTERNET",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "minSdkVersion": 21,
+      "usesCleartextTraffic": false,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCKPxwk5mgGovdLIFk5ybNug8DeEFI-lM4"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8847791a-2701-42c5-850a-54a3c51a52e0"
+      }
+    },
+    "owner": "rir"
+  }
+}
